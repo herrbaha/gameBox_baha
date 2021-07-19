@@ -14,3 +14,12 @@ squares.forEach((square, index) => {
     })
   }
 })
+let lastClickDiv;
+
+function click() {
+  if (lastClickDiv) {
+    lastClickDiv.style.backgroundColor = 'red' ;
+  }
+  this.style.backgroundColor = 'yellow';
+  lastClickDiv = this;
+}
