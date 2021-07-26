@@ -8,9 +8,9 @@ squares.forEach((square, index) => {
   if (index == random) {
     square.addEventListener('click', function() {
       
-      this.style.backgroundColor = '	#FF3D00';
+      this.style.backgroundColor = '#008080';
       alert('Congratulations');
-    if (this.style.backgroundColor = '#FF3D00'){
+    if (this.style.backgroundColor = '#008080'){
      return window.location.reload();
      }
     })
