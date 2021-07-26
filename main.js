@@ -8,9 +8,9 @@ squares.forEach((square, index) => {
   if (index == random) {
     square.addEventListener('click', function() {
       
-      this.style.backgroundColor = 'green';
+      this.style.backgroundColor = '#00838F';
       alert('Congratulations');
-    if (this.style.backgroundColor = 'green'){
+    if (this.style.backgroundColor = '#00838F'){
      return window.location.reload();
      }
     })
@@ -20,9 +20,9 @@ let lastClickDiv;
 
 function click() {
   if (lastClickDiv) {
-    lastClickDiv.style.backgroundColor = 'red' ;
+    lastClickDiv.style.backgroundColor = '#9E9D24' ;
   }
-  this.style.backgroundColor = 'yellow';
+  this.style.backgroundColor = '#D4E157';
   lastClickDiv = this;
 }
 // || index == random +2
