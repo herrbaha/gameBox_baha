@@ -11,16 +11,16 @@ body {
   height: 100vh;
 }
 section{
-  width:515px;
-  height: 515px;
+  width:593px;
+  height: 592px;
   display:flex;
   flex-wrap:wrap;
   align-items: center;
   align-content: center;
 }
 div{
-  height:128px;
-  width:128px;
+  height:98px;
+  width:98px;
   background-color:#BDB76B;
   border: 1px solid white;
 }
