@@ -8,18 +8,19 @@ body {
   justify-content: center;
   align-items: center;
   background-color: aqua;
+  height: 100vh;
 }
 section{
-  width:395px;
-  height: 395px;
+  width:515px;
+  height: 515px;
   display:flex;
   flex-wrap:wrap;
   align-items: center;
   align-content: center;
 }
 div{
-  height:98px;
-  width:98px;
+  height:128px;
+  width:128px;
   background-color:red;
   border: 1px solid white;
 }
