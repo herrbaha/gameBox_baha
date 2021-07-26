@@ -25,4 +25,4 @@ function click() {
   this.style.backgroundColor = 'yellow';
   lastClickDiv = this;
 }
-// index == random +2
+// || index == random +2
