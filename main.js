@@ -5,7 +5,7 @@ console.log(random );
 squares.forEach((square, index) => {
   square.addEventListener('click', click);
   
-  if (index == random || index == random +2) {
+  if (index == random) {
     square.addEventListener('click', function() {
       this.style.backgroundColor = 'green';
       alert('Congratulations');
@@ -24,3 +24,4 @@ function click() {
   this.style.backgroundColor = 'yellow';
   lastClickDiv = this;
 }
+// index == random +2
