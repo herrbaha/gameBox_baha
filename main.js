@@ -9,7 +9,7 @@ squares.forEach((square, index) => {
       this.style.backgroundColor = '#008080';
       alert('Congratulations');
      if (this.style.backgroundColor = '#008080'){
-     return window.location.reload(true);
+     return window.location.reload();
      }
     })
   }
