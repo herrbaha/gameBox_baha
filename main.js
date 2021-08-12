@@ -1,7 +1,5 @@
 const squares = document.querySelectorAll('div');
-//console.log(squares);
 random = Math.floor(Math.random() *16);
-//console.log(random );
 squares.forEach((square, index) => {
   square.addEventListener('click', click);
  
@@ -10,12 +8,15 @@ squares.forEach((square, index) => {
       
       this.style.backgroundColor = '#008080';
       alert('Congratulations');
-    if (this.style.backgroundColor = '#008080'){
-     return window.location.reload();
-     }
+    //  if (this.style.backgroundColor = '#008080'){
+    //  return window.location.reload();
+    //  }
     })
   }
 })
+
+//click function
+
 let lastClickDiv;
 
 function click() {
@@ -25,4 +26,3 @@ function click() {
   this.style.backgroundColor = '#D4E157';
   lastClickDiv = this;
 }
-// || index == random +2
