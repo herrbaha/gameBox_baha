@@ -1,5 +1,6 @@
 const squares = document.querySelectorAll('div');
 random = Math.floor(Math.random() *30);
+
 squares.forEach((square, index) => {
   square.addEventListener('click', click);
  
